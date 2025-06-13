@@ -1,5 +1,3 @@
 std_msgs/Header header
-geometry_msgs/Pose ref_frame
-float32 radius
-float32 start_angle
-float32 end_angle
+geometry_msgs/Point icr_pos # Expressed in ref_frame
+bool driving_forward
